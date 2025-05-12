@@ -6,7 +6,7 @@
 
     <groupId>com.ja-netfilter</groupId>
     <artifactId>ja-netfilter</artifactId>
-    <version>2022.2.0</version>
+    <version>2.0.1</version>
 
     <name>ja-netfilter</name>
     <description>A Java Instrumentation Framework</description>
@@ -166,11 +166,11 @@
     </profiles>
     <dependencies>
         <dependency>
-            <groupId>com.sun</groupId>
-            <artifactId>tools</artifactId>
+            <groupId>jdk.tools</groupId>
+            <artifactId>jdk.tools</artifactId>
             <version>1.8</version>
             <scope>system</scope>
-            <systemPath>${java.home}/../lib/tools.jar</systemPath>
+            <systemPath>${java.home}/lib/tools.jar</systemPath>
         </dependency>
     </dependencies>
 </project>
